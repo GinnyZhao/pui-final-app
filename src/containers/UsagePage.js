@@ -20,7 +20,7 @@ class UsagePage extends Component {
                         </NavLink>
                     </div>
                     <div className="col-4">
-                        <NavLink to={appRoutes.home}>
+                        <NavLink to={appRoutes.usage_d}>
                             <img className="center_button" src={usage}/>
                         </NavLink>
                     </div>

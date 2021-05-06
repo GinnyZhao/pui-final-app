@@ -12,6 +12,7 @@ import OverviewDetailsPage from "./containers/OverviewDetailsPage/OverviewDetail
 import ProcessDetailsPage from "./containers/ProcessDetailsPage/ProcessDetailsPage";
 import AlgoDetailsPage from "./containers/AlgoDetailsPage";
 import MetricsDetailsPage from "./containers/MetricsDetailsPage";
+import UsageDetailsPage from "./containers/UsageDetailsPage/UsageDetailsPage";
 import {BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
 import appRoutes from "./appRoutes";
 
@@ -61,6 +62,9 @@ class App extends Component {
             <MetricsDetailsPage />
           </Route>
           
+          <Route exact path={appRoutes.usage_d}>
+            <UsageDetailsPage />
+          </Route>
 
 
 

@@ -1,0 +1,10 @@
+.usage_details {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.image_desc {
+    display: block;
+    text-align: center;
+    font-weight: 500;
+}
