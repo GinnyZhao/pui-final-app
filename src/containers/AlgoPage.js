@@ -20,7 +20,7 @@ class AlgoPage extends Component {
                         </NavLink>
                     </div>
                     <div className="col-4">
-                        <NavLink to={appRoutes.home}>
+                        <NavLink to={appRoutes.algo_d}>
                             <img className="center_button" src={algo}/>
                         </NavLink>
                     </div>

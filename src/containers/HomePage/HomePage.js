@@ -16,7 +16,7 @@ class HomePage extends Component {
                 <div className="row mainpage"> 
                     <div className="col-4"> </div>
                     <div className="col-4">
-                        <NavLink to={appRoutes.home}>
+                        <NavLink to={appRoutes.overview_d}>
                             <img className="center_button" src={overview}/>
                         </NavLink>
                     </div>

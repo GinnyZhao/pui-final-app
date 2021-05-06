@@ -20,7 +20,7 @@ class MetricsPage extends Component {
                         </NavLink>
                     </div>
                     <div className="col-4">
-                        <NavLink to={appRoutes.home}>
+                        <NavLink to={appRoutes.metrics_d}>
                             <img className="center_button" src={metrics}/>
                         </NavLink>
                     </div>

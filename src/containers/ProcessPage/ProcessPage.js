@@ -21,7 +21,7 @@ class ProcessPage extends Component {
                         </NavLink>
                     </div>
                     <div className="col-4">
-                        <NavLink to={appRoutes.home}>
+                        <NavLink to={appRoutes.process_d}>
                             <img className="center_button" src={process}/>
                         </NavLink>
                     </div>
