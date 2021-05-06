@@ -14,7 +14,6 @@ import AlgoDetailsPage from "./containers/AlgoDetailsPage";
 import MetricsDetailsPage from "./containers/MetricsDetailsPage";
 import {BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
 import appRoutes from "./appRoutes";
-import { Transition } from 'react-transition-group';
 
 
 class App extends Component {
