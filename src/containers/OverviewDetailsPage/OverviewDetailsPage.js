@@ -11,8 +11,9 @@ class OverviewDetailsPage extends Component {
     render () {
         return (
             <div className="details">
-                <img className="progress_bar" src={overview_top}/>
-                <img className="title" src={overview_title}/>
+                <img className="progress_bar" src={overview_top} alt="progress bar for overview"/>
+                <img className="title" src={overview_title} alt="title: overview"/>
+                {/* main body */}
                 <div className="content">
                     <p className="regular"> Machine learning is when you load </p>
                     <p className="highlight"> lots of data </p>
@@ -26,7 +27,8 @@ class OverviewDetailsPage extends Component {
                     <br/> <br/>
                     <p className="regular"> Here is a graph of the general machine learning process: </p>
                 </div>
-                <img className="img_details" src={overview_details}/> 
+                <img className="img_details" src={overview_details} alt="Machine learning overview"/> 
+                {/* back button */}
                 <NavLink to={appRoutes.home}>
                     <button className="back_button"> Back </button>
                 </NavLink>

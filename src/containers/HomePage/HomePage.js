@@ -12,15 +12,17 @@ class HomePage extends Component {
     render () {
         return (
             <div className="Overview">
+                {/* top progress bar */}
                 <img className="progress_bar" src={overview_top}/>
                 <div className="row mainpage"> 
                     <div className="col-4"> </div>
                     <div className="col-4">
+                        {/* button for overview details */}
                         <NavLink to={appRoutes.overview_d}>
                             <img className="center_button" src={overview}/>
                         </NavLink>
                     </div>
-                    <div className="col-4"> 
+                    <div className="col-4"> å
                         <NavLink to={appRoutes.process}>
                             <img className="right_button" src={process_righthalf} />
                         </NavLink>

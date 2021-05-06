@@ -14,8 +14,8 @@ class ProcessDetailsPage extends Component {
     render () {
         return (
             <div className="details">
-                <img className="progress_bar" src={process_top}/>
-                <img className="title" src={process_title}/>
+                <img className="progress_bar" src={process_top} alt="Progress bar for data processing"/>
+                <img className="title" src={process_title} alt="Title: data processing"/>
                 <div className="content">
                     <p className="regular"> Before fitting any models to our data, it is important to convert our raw data to a much more  </p>
                     <p className="highlight"> usable and desired form </p>
